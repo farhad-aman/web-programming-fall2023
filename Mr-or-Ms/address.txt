@@ -1,0 +1,5 @@
+https://farhad-aman.github.io/Mr-or-Ms/
+https://github.com/farhad-aman/Mr-or-Ms
+
+note1: The gender API is not accessible with Iran's IP so VPN in necessary.
+note2: Gender API has request limit.

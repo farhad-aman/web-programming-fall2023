@@ -1,0 +1,63 @@
+/* Sets the background of the entire webpage using an image from assets folder, covers the entire area of the body */
+body {
+  background-image: url(assets/bg.jpg); 
+  background-size: cover; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif; /* Uses 'Poppins' font for the webpage */
+}
+
+/* Styles for center-aligned content with some padding and margin */
+.center {
+  padding: 20px; /* Adds padding around the content */
+  margin-top: 10%; /* Creates space on top */
+  display: flex;
+  flex-direction: column; /* Aligns items in a column */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Adds a 'glassy' effect to elements, with rounded borders and a subtle shadow */
+.glassy {
+  background: rgba(255, 255, 255, 0.4); /* Semi-transparent white background */
+  border-radius: 50px; /* Rounded corners */
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Wrapper for columns, with a gap for spacing */
+.col-wrapper {
+  display: flex;
+  gap: 150px; /* Space between columns */
+}
+
+/* Style for individual columns */
+.column {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Full width of the parent element */
+}
+
+/* Styles for forms with vertical layout and spacing */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between form items */
+}
+
+/* Styles for a div with a dashed border */
+div .dashed {
+  border-style: dashed;
+  padding: 40px; /* Padding inside the dashed border */
+}
+
+/* Styles for a group of radio buttons */
+.radio-group {
+  display: flex;
+  flex-direction: column; /* Aligns radio buttons vertically */
+}
+
+/* Small font size for labels in the radio group */
+.radio-group label {
+  font-size: small;
+}
